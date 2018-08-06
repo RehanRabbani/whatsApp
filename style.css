@@ -1,0 +1,64 @@
+.person-img{
+	height: 60px;
+	width: 60px;
+	background-image: url('ahmed.jpg');
+	background-position: center;
+	background-size: cover;
+	border-radius: 1000px;
+	margin-right: 1em;
+}
+.after-person-img p{
+	margin: 0px;
+}
+.after-person-img{
+	display: flex;
+	align-items: flex-start;
+}
+.content-center>*{
+margin: 0px;
+}
+.person-item{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid;
+	color:rgba(0,0,0,0.2);
+	padding: 1em;
+	width: 400px;
+
+
+}
+.time{
+	font-size:0.7em;
+	color: rgba(0,0,0,0.6);
+	position: absolute;
+    /* right: -27px; */
+    left: 28em;
+
+}
+h4{
+	color: rgba(0, 0,0, 0.8);
+	margin-bottom: 5px;
+}
+.msg{
+	color: rgba(0, 0,0, 0.8);
+}
+.msg-container{
+	display: flex;
+}
+i{
+	margin-right: 5px;
+}
+.infom-list{
+	display: flex;
+	flex-direction: column;
+	min-width: 100px;
+	align-items: center;
+	justify-content: center;
+
+height: 700px;
+	width: 600px;
+	
+}
+.mainDiv{
+	display: flex;
+}
